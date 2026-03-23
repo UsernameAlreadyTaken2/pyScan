@@ -1,0 +1,28 @@
+[fi6130]
+device = "fujitsu:fi-6130dj:446340"
+sensors = "hardware"
+
+[fi6130.actions.AutoScan]
+page-loaded = "yes"
+function = "5"
+
+[fi6130.actions.scan_F1]
+# scan einseitig und in Farbe als PDF
+page-loaded = "yes"
+scan = "yes"
+function = "1"
+
+[fi6130.actions.scan_F2]
+# Scan doppelseitig und in Farbe als PDF
+page-loaded = "yes"
+scan = "yes"
+function = "2"
+
+
+
+[fi6130.commandos]
+AutoScan = "cmdAuto"
+scan_F1 = "cmdScanF1"
+scan_f2 = "cmdScanF2"
+
+
