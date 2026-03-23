@@ -7,7 +7,7 @@ from utils import get_all_scanners, process
 
 if __name__ == "__main__":
     # todo: argparse devices.toml
-    devices_toml = "/home/pi/pyScan/devices.toml"
+    devices_toml = "devices.toml"
 
     # todo: argparse scan_interval
     scan_interval = 1 # seconds
