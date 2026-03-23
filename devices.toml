@@ -18,11 +18,8 @@ page-loaded = "yes"
 scan = "yes"
 function = "2"
 
-
-
 [fi6130.commandos]
 AutoScan = "cmdAuto"
-scan_F1 = "cmdScanF1"
+scan_F1 = 'scanimage --progress --verbose --format="pdf" --source="ADF Duplex" --batch="/home/pi/paperless-ngx/consume/[date].pdf" --page-width="210" --resolution="300" --page-height="297" --mode="Color"'
 scan_f2 = "cmdScanF2"
-
 
